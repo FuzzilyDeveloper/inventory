@@ -1,5 +1,5 @@
 streamlit
-pandas 
+pandas
 numpy
 scikit-learn
-pickle-mixin
+# pickle is a built-in module, so it's not needed in requirements.txt
