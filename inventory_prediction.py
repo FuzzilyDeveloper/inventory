@@ -7,7 +7,7 @@ st.title("Inventory Prediction")
 # For this example, we'll simulate loading it. In a real app,
 # you might pass the DataFrame from the main app or load it differently.
 try:
-    df = pd.read_csv('/Grocery_Inventory new v1.csv')
+    df = pd.read_csv('Grocery_Inventory new v1.csv')
 except FileNotFoundError:
     st.error("DataFrame not found. Please ensure 'Grocery_Inventory new v1.csv' is in the correct path.")
     st.stop()
