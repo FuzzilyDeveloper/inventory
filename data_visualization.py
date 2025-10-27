@@ -7,7 +7,7 @@ st.title("Inventory Data Visualization")
 
 # Load the DataFrame
 try:
-    df = pd.read_csv('/content/drive/MyDrive/Grocery_Inventory new v1.csv')
+    df = pd.read_csv('/Grocery_Inventory new v1.csv')
 except FileNotFoundError:
     st.error("DataFrame not found. Please ensure 'Grocery_Inventory new v1.csv' is in the correct path.")
     st.stop()
